@@ -26,4 +26,3 @@ double Z = Math.Pow(z1 - z2, 2);
 double length = Math.Sqrt(X + Y + Z);
 length = Math.Round(length, 2);
 Console.WriteLine($"Длинна отрезка {length}");
-
