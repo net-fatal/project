@@ -9,14 +9,16 @@ Console.Clear();
 
 
 Console.Write("Введите число: ");
-    int num = int.Parse(Console.ReadLine()!); 
-    int t, r;
-    int sum = 0;
-    for(t = num;num != 0;num = num/10){
-         r = num % 10;
-         sum = sum*10+r;
-    }
-    if(t==sum)
-         Console.Write("Число {0} является полиндромом.\n",t);
-    else
-         Console.Write("Число {0} не является полиндромом..\n",t);
+    // int num = int.Parse(Console.ReadLine()!); 
+    // int t, r;
+    // int sum = 0;
+    // for(t = num;num != 0;num = num/10){
+    //      r = num % 10;
+    //      sum = sum*10+r;
+    // }
+    // if(t==sum)
+    //      Console.Write("Число {0} является полиндромом);
+    // else
+    //      Console.Write("Число {0} не является полиндромом);
+
+    int x = int.Parse(Console.ReadLine()!);
