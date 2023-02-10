@@ -17,7 +17,7 @@ int sum = 0;
         sum = sum*10+r;
     }
     if(t==sum)
-Console.Write("Число {0} является полиндромом");
+Console.Write($"Число {t} является полиндромом");
     else
-Console.Write("Число {0} не является полиндромом");
+Console.Write($"Число {t} не является полиндромом");
 
